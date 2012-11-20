@@ -4,9 +4,8 @@
 * AutoMOD [Deutsch — Sie]
 *
 * @package language
-* @version $Id: info_acp_modman.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2008 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
 * siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
@@ -47,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ACP_AUTOMOD_CONFIG'	=> 'AutoMOD-Konfiguration',
 
 	'LOG_MOD_ADD'		=> '<strong>Neue Modifikation hinzugefügt</strong><br />» %s',
-	'LOG_MOD_CHANGE'	=> '<strong>Komponenten einer Modifikation geändert</strong><br />» %x',
+	'LOG_MOD_CHANGE'	=> '<strong>Komponenten einer Modifikation geändert</strong><br />» %s',
 	'LOG_MOD_REMOVE'	=> '<strong>Modifikation entfernt</strong><br />» %s',
 
 	'MOD_CHANGELOG'		=> 'Changelog der Modifikation',
