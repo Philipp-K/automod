@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'DIR_PERMS'			=> 'Verzeichnis-Berechtigungen',
 	'DIR_PERMS_EXPLAIN'	=> 'Auf manchen Systemen sind besondere Verzeichnisrechte (CHMODs) erforderlich, damit die Verzeichnisse richtig funktionieren. Normalerweise ist der Standardwert 0755 richtig. Diese Einstellung hat keine Auswirkung auf Windows-Systeme.',
-	'DIY_INSTRUCTIONS'	=> 'Selbst durchzuführende Schritte (Sie müssen diese Schritte manuell durchführen, um die Installation der Modifikation abzuschließen)',
+	'DIY_INSTRUCTIONS'	=> 'Selbst durchzuführende Schritte (Sie müssen diese Schritte manuell durchführen, um die Installation der Modifikation abzuschließen.)',
 	'DEPENDENCY_INSTRUCTIONS'	=>	'Die Modifikation, die Sie installieren wollen, ist von einer anderen abhängig. AutoMOD kann nicht ermitteln, ob diese Modifikation installiert wurde. Bitte stellen Sie sicher, dass Sie <strong><a href="%1$s">%2$s</a></strong> installiert haben, bevor Sie diese Modifikation installieren.',
 	'DESCRIPTION'	=> 'Beschreibung',
 	'DETAILS'		=> 'Details',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_TIME'		=> 'Installationsdauer',
 	'INSTALL_MOD'		=> 'Diese Modifikation installieren',
 	'INSTALL_ERROR'		=> 'Eine oder mehrere Installationsaktionen sind gescheitert. Bitte prüfen Sie die unten aufgeführten Aktionen und nehme Sie die notwendigen Änderungen vor und versuchen Sie es anschließend erneut. Sie können mit der Aktion fortfahren, obwohl einige Aktionen gescheitert sind. <strong>Dies wird nicht empfolen, da das Board anschließend nicht mehr richtig funktionieren könnte.</strong>',
-	'INSTALL_FORCED'	=> 'Sie haben die Installation dieser Modifikation erzwungen, obwohl Fehler bei ihrer Installation aufgetreten sind. Ihr Board könnte nicht mehr funktionstüchtig sein. Bitte prüfen Sie die Vorgänge, die gescheitert sind und korrigieren Sie sie.',
+	'INSTALL_FORCED'	=> 'Sie haben die Installation dieser Modifikation erzwungen, obwohl Fehler bei ihrer Installation aufgetreten sind. Ihr Board könnte nicht mehr funktionstüchtig sein. Bitte prüfen Sie die Vorgänge, die gescheitert sind und korrigieren Sie mögliche Fehler.',
 	'INSTALLED'			=> 'Modifikation installiert',
 	'INSTALLED_EXPLAIN'	=> 'Die Modifikation wurde installiert. Hier können Sie die Ergebnisse der Installation sehen. Bitte notieren Sie aufgetretene Fehler und wenden Sie sich an <a href="http://www.phpbb.com">phpBB.com</a> oder <a href="http://www.phpbb.de/">phpBB.de</a>, um weitere Unterstützung zu erhalten.',
 	'INSTALLED_MODS'	=> 'Installierte Modifikationen',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'MOD_UPLOAD_EXPLAIN'		=> 'Hier können Sie eine komprimierte Datei hochladen, die die zur Installation notwendigen MODX-Dateien enthält. AutoMOD versucht dann, die Datei zu entpacken und sie zur Installation anzubieten.',
 	'MOD_UPLOAD_INIT_FAIL'		=> 'Bei der Initialisierung des Hochladevorgangs ist ein Fehler aufgetreten.',
 	'MOD_UPLOAD_SUCCESS'		=> 'Die Modifikation wurde hochgeladen und für die Installation vorbereitet.',
-	'MOD_UPLOAD_UNRECOGNIZED'	=> 'Die Verzeichnisstruktur der hochgeladenen Modifikation wurde nicht erkannt. Bitte überprüfen sie, ob das hochgeladene Zip-Archiv beschädigt ist oder Dateien/Ordner fehlen, oder wenden sie sich an den Autor der Modifikation.',
+	'MOD_UPLOAD_UNRECOGNIZED'	=> 'Die Verzeichnisstruktur der hochgeladenen Modifikation wurde nicht erkannt. Bitte überprüfen Sie, ob das hochgeladene Zip-Archiv beschädigt ist oder Dateien/Ordner fehlen, oder wenden Sie sich an den Autor der Modifikation.',
 	'AUTOMOD_INSTALLATION'		=> 'AutoMOD-Installation',
 	'AUTOMOD_INSTALLATION_EXPLAIN'	=> 'Willkommen bei der Installation von AutoMOD. Sie benötigen Ihre FTP-Zugangsdaten, sofern AutoMOD erkennt, dass dies der beste Weg zur Bearbeitung von Dateien ist. Sie finden die Ergebnisse der Prüfung unten.',
 
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'MODS_FTP_FAILURE'			=> 'AutoMOD konnte die Datei %s nicht per FTP an ihr Ziel kopieren',
 	'MODS_FTP_CONNECT_FAILURE'	=> 'AutoMOD konnte keine Verbindung mit dem FTP-Server herstellen. Die Fehlermeldung war: %s',
 	'MODS_MKDIR_FAILED'			=> 'Das Verzeichnis %s konnte nicht angelegt werden',
-	'MODS_NOT_WRITABLE'			=> 'Das Verzeichnis store/mods/ ist nicht beschreibbar. Dies wird benötigt, damit „Modifikation hochladen“ korrekt funktioniert, außer sie haben die „Schreibmethode“ auf „FTP“ gestellt. Bitte passen sie die Berechtigungen oder Einstellungen an und versuchen sie es erneut.',
+	'MODS_NOT_WRITABLE'			=> 'Das Verzeichnis store/mods/ ist nicht beschreibbar. Dies wird benötigt, damit „Modifikation hochladen“ korrekt funktioniert, außer Sie haben die „Schreibmethode“ auf „FTP“ gestellt. Bitte passen Sie die Berechtigungen oder Einstellungen an und versuchen Sie es erneut.',
 	'MODS_RMDIR_FAILURE'		=> 'Das Verzeichnis %s konnte nicht entfernt werden',
 	'MODS_RMFILE_FAILURE'		=> 'Die Datei %s konnte nicht entfernt werden',
 	'MODS_SETUP_INCOMPLETE'		=> 'Es wurde ein Problem mit Ihrer Konfiguration festgestellt, so dass AutoMOD nicht funktionieren kann. Dies sollte nur auftreten, wenn sich Einstellungen (z.&nbsp;B. der FTP-Benutzername) geändert haben. Das Problem kann auf der Konfigurationsseite von AutoMOD behoben werden.',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD'				=> 'Upload',
 
 	'VERSION'				=> 'Version',
-	'VERSION_WARNING'		=> 'Die phpBB Zielversion der Modifikation ist %1$s, ihr Forum hat jedoch die Version %2$s. Selbst wenn die Installtion erfolgreich ist, kann es passieren, dass die Modifikation nicht wie erwartet funktioniert oder ihr Forum beschädigt. Bitte überprüfen sie zusammen mit dem Autor der Modifkation, ob die Modifikation mit ihrer phpBB Version kompatibel ist.',
+	'VERSION_WARNING'		=> 'Die phpBB Zielversion der Modifikation ist %1$s, ihr Forum hat jedoch die Version %2$s. Selbst wenn die Installtion erfolgreich ist, kann es passieren, dass die Modifikation nicht wie erwartet funktioniert oder ihr Forum beschädigt. Bitte überprüfen Sie zusammen mit dem Autor der Modifikation, ob die Modifikation mit ihrer phpBB Version kompatibel ist.',
 
 	'WARNING'				=> 'Warnung',
 	'WRITE_DIRECT_FAIL'		=> 'AutoMOD konnte die Datein %s nicht an ihr Ziel kopieren. Bitte versuchen Sie eine andere Schreibmethode.',

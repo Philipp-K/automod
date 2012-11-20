@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'DIR_PERMS'			=> 'Verzeichnis-Berechtigungen',
 	'DIR_PERMS_EXPLAIN'	=> 'Auf manchen Systemen sind besondere Verzeichnisrechte (CHMODs) erforderlich, damit die Verzeichnisse richtig funktionieren. Normalerweise ist der Standardwert 0755 richtig. Diese Einstellung hat keine Auswirkung auf Windows-Systeme.',
-	'DIY_INSTRUCTIONS'	=> 'Selbst durchzuführende Schritte (Du musst diese Schritte manuell durchführen, um die Installation der Modifikation abzuschließen)',
+	'DIY_INSTRUCTIONS'	=> 'Selbst durchzuführende Schritte (Du musst diese Schritte manuell durchführen, um die Installation der Modifikation abzuschließen.)',
 	'DEPENDENCY_INSTRUCTIONS'	=>	'Die Modifikation, die du installieren willst, ist von einer anderen abhängig. AutoMOD kann nicht ermitteln, ob diese Modifikation installiert wurde. Bitte stelle sicher, dass du <strong><a href="%1$s">%2$s</a></strong> installiert hast, bevor du diese Modifikation installierst.',
 	'DESCRIPTION'	=> 'Beschreibung',
 	'DETAILS'		=> 'Details',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_TIME'		=> 'Installationsdauer',
 	'INSTALL_MOD'		=> 'Diese Modifikation installieren',
 	'INSTALL_ERROR'		=> 'Eine oder mehrere Installationsaktionen sind gescheitert. Bitte prüfe die unten aufgeführten Aktionen und nehme die notwendigen Änderungen vor und versuche es anschließend erneut. Du kannst mit der Aktion fortfahren, obwohl einige Aktionen gescheitert sind. <strong>Dies wird nicht empfolen, da das Board anschließend nicht mehr richtig funktionieren könnte.</strong>',
-	'INSTALL_FORCED'	=> 'Du hast die Installation dieser Modifikation erzwungen, obwohl Fehler bei ihrer Installation aufgetreten sind. Dein Board könnte nicht mehr funktionstüchtig sein. Bitte prüfe die Vorgänge, die gescheitert sind und korrigiere sie.',
+	'INSTALL_FORCED'	=> 'Du hast die Installation dieser Modifikation erzwungen, obwohl Fehler bei ihrer Installation aufgetreten sind. Dein Board könnte nicht mehr funktionstüchtig sein. Bitte prüfe die Vorgänge, die gescheitert sind und korrigiere mögliche Fehler.',
 	'INSTALLED'			=> 'Modifikation installiert',
 	'INSTALLED_EXPLAIN'	=> 'Die Modifikation wurde installiert. Hier kannst du die Ergebnisse der Installation sehen. Bitte notiere aufgetretene Fehler und wende dich an <a href="http://www.phpbb.com">phpBB.com</a> oder <a href="http://www.phpbb.de/">phpBB.de</a>, um weitere Unterstützung zu erhalten.',
 	'INSTALLED_MODS'	=> 'Installierte Modifikationen',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD'				=> 'Upload',
 
 	'VERSION'				=> 'Version',
-	'VERSION_WARNING'		=> 'Die phpBB Zielversion der Modifikation ist %1$s, dein Forum hat jedoch die Version %2$s. Selbst wenn die Installtion erfolgreich ist, kann es passieren, dass die Modifikation nicht wie erwartet funktioniert oder dein Forum beschädigt. Bitte überprüfe zusammen mit dem Autor der Modifkation, ob die Modifikation mit deiner phpBB Version kompatibel ist.',
+	'VERSION_WARNING'		=> 'Die phpBB Zielversion der Modifikation ist %1$s, dein Forum hat jedoch die Version %2$s. Selbst wenn die Installtion erfolgreich ist, kann es passieren, dass die Modifikation nicht wie erwartet funktioniert oder dein Forum beschädigt. Bitte überprüfe zusammen mit dem Autor der Modifikation, ob die Modifikation mit deiner phpBB Version kompatibel ist.',
 
 	'WARNING'				=> 'Warnung',
 	'WRITE_DIRECT_FAIL'		=> 'AutoMOD konnte die Datein %s nicht an ihr Ziel kopieren. Bitte versuche eine andere Schreibmethode.',
